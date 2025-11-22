@@ -139,8 +139,21 @@ const Herd: React.FC = () => {
         </div>
       </section>
 
+      {/* For Hunting Ranches */}
+      <section className="py-20 bg-slate-100">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl font-serif font-bold text-ranch-navy mb-6">For Hunting Ranches</h2>
+          <p className="text-slate-600 text-lg leading-relaxed mb-8">
+            Our deer perform well on hunting ranches, offering strong color, clean genetics, and good body condition that holds up in everyday pasture settings.
+          </p>
+          <p className="text-slate-600 text-lg leading-relaxed">
+            Whether you're stocking a new property or adding quality animals to an existing operation, our focus on structure, temperament, and consistent color gives buyers confidence in every animal we raise.
+          </p>
+        </div>
+      </section>
+
       {/* Gallery Strip */}
-      <section className="py-16 bg-slate-100">
+      <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-serif font-bold text-ranch-navy mb-4">Around the Ranch</h2>

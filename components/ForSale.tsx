@@ -147,11 +147,49 @@ const ForSale: React.FC = () => {
         </div>
       </section>
 
+      {/* Sales Info Block */}
+      <section className="py-16 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div>
+              <h3 className="text-2xl font-serif font-bold text-ranch-navy mb-4">What We Offer</h3>
+              <ul className="space-y-3 text-slate-600">
+                <li className="flex items-start gap-3">
+                  <span className="w-2 h-2 bg-ranch-gold rounded-full mt-2 flex-shrink-0"></span>
+                  <span>Live cover from proven breeder bucks</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="w-2 h-2 bg-ranch-gold rounded-full mt-2 flex-shrink-0"></span>
+                  <span>Covered does with strong color traits</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="w-2 h-2 bg-ranch-gold rounded-full mt-2 flex-shrink-0"></span>
+                  <span>Yearlings with steady development</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="w-2 h-2 bg-ranch-gold rounded-full mt-2 flex-shrink-0"></span>
+                  <span>Breeder bucks available by rotation</span>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="text-2xl font-serif font-bold text-ranch-navy mb-4">Buyer Experience</h3>
+              <p className="text-slate-600 leading-relaxed mb-4">
+                Buyers can expect clear communication, accurate descriptions, and healthy animals ready for breeding or pasture.
+              </p>
+              <p className="text-slate-600 leading-relaxed">
+                We stand behind what we sell with honest representation and a commitment to helping buyers find the right fit for their goals.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="bg-ranch-gold py-12">
         <div className="max-w-4xl mx-auto px-4 text-center text-white">
-            <h2 className="text-2xl font-bold font-serif mb-4">Don't see what you're looking for?</h2>
-            <p className="mb-8">We often have stock that hasn't been listed yet. Contact us for the most up-to-date availability.</p>
+            <h2 className="text-2xl font-bold font-serif mb-4">Ready to Talk?</h2>
+            <p className="mb-8">Contact us anytime to discuss herd goals, availability, or breeding plans.</p>
             <Link to="/contact" className="inline-block bg-white text-ranch-gold px-8 py-3 rounded font-bold uppercase hover:bg-slate-100 transition-colors">
                 Contact Us
             </Link>

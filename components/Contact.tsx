@@ -76,7 +76,8 @@ const Contact: React.FC = () => {
 
           {/* Form Column */}
           <div className="bg-slate-800 p-8 rounded-xl border border-slate-700 shadow-xl">
-            <h3 className="text-2xl font-serif font-bold text-white mb-6">Get in Touch</h3>
+            <h3 className="text-2xl font-serif font-bold text-white mb-2">Ready to Talk?</h3>
+            <p className="text-slate-400 mb-6">Contact us anytime to discuss herd goals, availability, or breeding plans.</p>
             <form onSubmit={handleSubmit} className="space-y-4">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <input 

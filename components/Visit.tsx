@@ -104,8 +104,8 @@ const Visit: React.FC = () => {
             {/* Form Column */}
             <div className="bg-white p-8 rounded-xl shadow-2xl border border-slate-100 relative">
               <div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-ranch-navy to-ranch-gold rounded-t-xl"></div>
-              <h3 className="text-2xl font-serif font-bold text-ranch-navy mb-2">Request Appointment</h3>
-              <p className="text-slate-500 mb-8">Fill out the form below and we will confirm your visit shortly.</p>
+              <h3 className="text-2xl font-serif font-bold text-ranch-navy mb-2">Ready to Talk?</h3>
+              <p className="text-slate-500 mb-8">Contact us anytime to discuss herd goals, availability, or schedule a visit.</p>
               
               <form onSubmit={handleSubmit} className="space-y-5">
                 <div>
