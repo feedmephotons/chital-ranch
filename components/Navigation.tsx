@@ -34,8 +34,12 @@ const Navigation: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           <div className="flex-shrink-0 flex items-center">
-            <Link to="/" className="text-2xl font-serif font-bold text-white tracking-wider border-2 border-ranch-gold px-3 py-1 rounded-sm">
-              CHITAL <span className="text-ranch-gold">RANCH</span>
+            <Link to="/" className="flex items-center">
+              <img
+                src="/images/logo.png"
+                alt="Chital Ranch"
+                className="h-12 w-auto"
+              />
             </Link>
           </div>
           

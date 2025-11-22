@@ -6,58 +6,43 @@ import { Link } from 'react-router-dom';
 const MOCK_ANIMALS: Animal[] = [
   {
     id: '1',
-    name: 'Texan King',
+    name: 'Breeder Bucks',
     type: 'Buck',
-    age: '3 Years',
-    price: '$3,500',
-    description: 'Exceptional chocolate buck with wide palms and heavy mass. Ready for breeding this season.',
-    // More specific prompt
-    imageUrl: 'https://image.pollinations.ai/prompt/full%20body%20chocolate%20fallow%20deer%20buck%20standing%20in%20field%20photorealistic?width=600&height=400&nologo=true&seed=401',
+    age: 'Various',
+    price: 'Contact for Pricing',
+    description: 'Quality chocolate fallow bucks with proven genetics. Wide palmation, solid frames, and dependable color. Built for South Texas conditions.',
+    imageUrl: '/images/buck-featured.jpg',
     status: 'Available'
   },
   {
     id: '2',
-    name: 'Lot #42 Group',
+    name: 'Stocker Does',
     type: 'Doe',
-    age: '2 Years',
-    price: '$1,200 ea',
-    description: 'Group of 5 exposed chocolate does. Covered by "Midnight", our primary breeder buck.',
-    // More specific prompt
-    imageUrl: 'https://image.pollinations.ai/prompt/group%20of%20female%20chocolate%20fallow%20deer%20grazing%20in%20pasture%20photorealistic?width=600&height=400&nologo=true&seed=402',
+    age: 'Various',
+    price: 'Contact for Pricing',
+    description: 'Foundation-quality chocolate does from our breeding program. Proven maternal genetics and consistent chocolate coloring.',
+    imageUrl: '/images/does-pasture.jpg',
     status: 'Available'
   },
   {
     id: '3',
-    name: 'Yearling Bucks',
+    name: 'Young Bucks',
     type: 'Buck',
-    age: '1 Year',
-    price: '$800',
-    description: 'Promising yearling bucks showing great potential. Perfect for growing out.',
-    // More specific prompt
-    imageUrl: 'https://image.pollinations.ai/prompt/young%20male%20chocolate%20fallow%20deer%20spike%20antlers%20photorealistic?width=600&height=400&nologo=true&seed=403',
-    status: 'Pending'
+    age: 'Yearling',
+    price: 'Contact for Pricing',
+    description: 'Promising young bucks showing excellent frame and color development. Perfect for growing out in your program.',
+    imageUrl: '/images/two-deer.jpg',
+    status: 'Available'
   },
   {
     id: '4',
-    name: 'Apache',
-    type: 'Buck',
-    age: '4 Years',
-    price: '$5,000',
-    description: 'Trophy quality breeder. Proven sire with multiple offspring on the ground.',
-    // More specific prompt
-    imageUrl: 'https://image.pollinations.ai/prompt/majestic%20trophy%20chocolate%20fallow%20buck%20huge%20palmate%20antlers%20photorealistic?width=600&height=400&nologo=true&seed=404',
-    status: 'Sold'
-  },
-  {
-    id: '5',
-    name: 'Spring Fawns',
-    type: 'Fawn',
-    age: '6 Months',
-    price: 'Inquire',
-    description: 'We are now taking deposits for our upcoming spring fawn crop. Chocolate genetics guaranteed.',
-    // More specific prompt
-    imageUrl: 'https://image.pollinations.ai/prompt/adorable%20baby%20chocolate%20fallow%20deer%20fawn%20spotted%20coat%20grass%20photorealistic?width=600&height=400&nologo=true&seed=405',
-    status: 'Available'
+    name: 'Bred Does',
+    type: 'Doe',
+    age: 'Various',
+    price: 'Contact for Pricing',
+    description: 'Exposed does bred to our top herd sires. Get a head start on your breeding program with proven genetics.',
+    imageUrl: '/images/herd-grazing.jpg',
+    status: 'Inquire'
   }
 ];
 
@@ -73,16 +58,16 @@ const ForSale: React.FC = () => {
       {/* Header */}
       <div className="relative py-24 bg-ranch-navy">
         <div className="absolute inset-0 opacity-40">
-           <img 
-            src="https://image.pollinations.ai/prompt/wide%20shot%20herd%20of%20chocolate%20fallow%20deer%20in%20a%20green%20field%20sunny%20day%20photorealistic?width=1920&height=600&nologo=true&seed=406" 
-            alt="Deer in field" 
+           <img
+            src="/images/herd-mixed.jpg"
+            alt="Deer in field"
             className="w-full h-full object-cover"
           />
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-serif font-bold text-white mb-4">Available Stock</h1>
           <p className="text-slate-200 max-w-2xl mx-auto text-lg">
-            Invest in proven genetics. Whether you are looking for breeder bucks, stocker does, or semen straws, we have quality options available.
+            Quality chocolate fallow deer from proven Texas bloodlines. Whether you're starting a new program or adding to an existing herd, we have animals that deliver consistent results.
           </p>
         </div>
       </div>

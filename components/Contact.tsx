@@ -32,11 +32,11 @@ const Contact: React.FC = () => {
           {/* Info Column */}
           <div>
             <div className="mb-8">
-               <Link to="/" className="text-3xl font-serif font-bold text-white tracking-wider border-2 border-ranch-gold px-3 py-1 rounded-sm inline-block mb-6">
-                CHITAL <span className="text-ranch-gold">RANCH</span>
+               <Link to="/" className="inline-block mb-6">
+                <img src="/images/logo.png" alt="Chital Ranch" className="h-16 w-auto" />
               </Link>
               <p className="text-slate-400 text-lg max-w-md">
-                Premier breeders of chocolate fallow deer in South Texas. Providing superior genetics to ranches across the state.
+                Quality chocolate fallow deer from proven Texas bloodlines. Dependable color, solid frames, and genetics built for South Texas conditions.
               </p>
             </div>
 

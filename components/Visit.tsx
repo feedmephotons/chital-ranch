@@ -28,44 +28,44 @@ const Visit: React.FC = () => {
        {/* Header */}
        <div className="relative py-24 bg-ranch-navy">
         <div className="absolute inset-0 opacity-40">
-           <img 
-            src="https://image.pollinations.ai/prompt/rustic%20luxury%20ranch%20lodge%20fireplace%20leather%20furniture%20texas%20interior%20photorealistic?width=1920&height=600&nologo=true" 
-            alt="Ranch Lodge" 
+           <img
+            src="/images/herd-grazing.jpg"
+            alt="Ranch View"
             className="w-full h-full object-cover"
           />
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl font-serif font-bold text-white mb-4">Visit Chital Ranch</h1>
-          <p className="text-xl text-gray-300 max-w-2xl mx-auto">Experience the quality firsthand.</p>
+          <p className="text-xl text-gray-300 max-w-2xl mx-auto">See the quality for yourself. Schedule a visit to our South Texas operation.</p>
         </div>
       </div>
 
       <section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
-            
+
             {/* Info Column */}
             <div>
-              <span className="text-ranch-gold uppercase tracking-widest text-sm font-bold">Plan Your Trip</span>
+              <span className="text-ranch-gold uppercase tracking-widest text-sm font-bold">Plan Your Visit</span>
               <h2 className="text-4xl font-serif font-bold text-ranch-navy mt-2 mb-6">Private Tours & Appointments</h2>
               <p className="text-slate-600 text-lg mb-8 leading-relaxed">
-                We welcome serious breeders, ranch owners, and wildlife enthusiasts to visit Chital Ranch. Seeing the animals in their natural South Texas habitat is the best way to appreciate the quality of our herd.
+                We welcome fellow breeders, ranch owners, and anyone interested in quality chocolate fallow deer to visit Chital Ranch. There's no substitute for seeing the animals in person—their color, conformation, and temperament speak for themselves.
               </p>
-              
+
               <div className="bg-slate-50 p-8 rounded-xl border border-slate-100 mb-8">
                 <h3 className="font-bold text-ranch-navy text-xl mb-4">What to Expect</h3>
                 <ul className="space-y-3">
                     <li className="flex items-start gap-3">
                         <CheckCircle className="text-ranch-gold shrink-0 mt-1" size={20} />
-                        <span className="text-slate-600">Guided tour of breeding pens and open pasture</span>
+                        <span className="text-slate-600">Tour of our breeding pens and pastures</span>
                     </li>
                     <li className="flex items-start gap-3">
                         <CheckCircle className="text-ranch-gold shrink-0 mt-1" size={20} />
-                        <span className="text-slate-600">Up-close viewing of sire bucks and foundation does</span>
+                        <span className="text-slate-600">Up-close look at our herd sires and foundation does</span>
                     </li>
                     <li className="flex items-start gap-3">
                         <CheckCircle className="text-ranch-gold shrink-0 mt-1" size={20} />
-                        <span className="text-slate-600">Consultation on genetics and herd management</span>
+                        <span className="text-slate-600">Honest conversation about genetics, management, and what we're building</span>
                     </li>
                 </ul>
               </div>

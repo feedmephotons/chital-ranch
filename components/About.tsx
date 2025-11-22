@@ -1,5 +1,5 @@
 import React from 'react';
-import { Target, ShieldCheck, Leaf, Map, History, Heart } from 'lucide-react';
+import { Target, ShieldCheck, Leaf } from 'lucide-react';
 
 const About: React.FC = () => {
   return (
@@ -7,15 +7,15 @@ const About: React.FC = () => {
       {/* Header */}
       <div className="relative py-24 bg-ranch-charcoal">
         <div className="absolute inset-0 opacity-30">
-           <img 
-            src="https://image.pollinations.ai/prompt/south%20texas%20brush%20country%20panorama%20stormy%20sky%20green%20vegetation%20photorealistic?width=1920&height=600&nologo=true&seed=501" 
-            alt="Ranch Panorama" 
+           <img
+            src="/images/herd-grazing.jpg"
+            alt="Herd Grazing"
             className="w-full h-full object-cover"
           />
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl font-serif font-bold text-white mb-4">About Us</h1>
-          <p className="text-xl text-gray-300 max-w-2xl mx-auto">Stewards of the land, guardians of the breed.</p>
+          <p className="text-xl text-gray-300 max-w-2xl mx-auto">A South Texas fallow operation focused on consistent chocolate genetics.</p>
         </div>
       </div>
 
@@ -26,40 +26,43 @@ const About: React.FC = () => {
             <div>
               <div className="flex items-center gap-4 mb-6">
                 <div className="h-px w-12 bg-ranch-gold"></div>
-                <span className="text-ranch-gold uppercase tracking-widest text-sm font-bold">Our History</span>
+                <span className="text-ranch-gold uppercase tracking-widest text-sm font-bold">Our Story</span>
               </div>
               <h2 className="text-4xl font-serif font-bold text-ranch-navy mb-6">
-                Rooted in <span className="italic text-ranch-gold">Texas Soil</span>
+                Built on <span className="italic text-ranch-gold">Purpose & Integrity</span>
               </h2>
               <p className="text-slate-600 text-lg leading-relaxed mb-6">
-                Established in Floresville, Texas, Chital Ranch began as a passion project that evolved into one of the state's premier breeding operations for Chocolate Fallow Deer. What started with a single trio of high-pedigree animals has grown into a carefully managed herd representing the finest genetics available.
+                Chital Ranch is a South Texas fallow operation focused on consistent chocolate genetics and dependable herd development. We raise our deer with close attention to health, temperament, and long-term quality.
+              </p>
+              <p className="text-slate-600 text-lg leading-relaxed mb-6">
+                Our genetics come from respected Texas bloodlines — including contributions from some of the state's top programs — and we use those strengths to build a herd that is consistent, balanced, and reliable.
               </p>
               <p className="text-slate-600 text-lg leading-relaxed mb-8">
-                Our founders recognized a gap in the market for consistent, high-quality chocolate fallow genetics. Too often, breeders were sacrificing hardiness for antler growth, or vice versa. At Chital Ranch, we proved you could have both.
+                We work with buyers and other ranches to match them with the right deer for their goals. Integrity and reliability drive every decision, from breeding to sale.
               </p>
-              
+
               <div className="flex gap-8 mt-8">
                 <div className="flex flex-col items-center">
-                    <span className="text-4xl font-bold text-ranch-gold font-serif">10+</span>
-                    <span className="text-sm uppercase tracking-wider text-slate-500 mt-2">Years Breeding</span>
-                </div>
-                <div className="flex flex-col items-center">
-                    <span className="text-4xl font-bold text-ranch-gold font-serif">500+</span>
-                    <span className="text-sm uppercase tracking-wider text-slate-500 mt-2">Acres Managed</span>
+                    <span className="text-4xl font-bold text-ranch-gold font-serif">TX</span>
+                    <span className="text-sm uppercase tracking-wider text-slate-500 mt-2">South Texas</span>
                 </div>
                 <div className="flex flex-col items-center">
                     <span className="text-4xl font-bold text-ranch-gold font-serif">100%</span>
-                    <span className="text-sm uppercase tracking-wider text-slate-500 mt-2">Satisfaction</span>
+                    <span className="text-sm uppercase tracking-wider text-slate-500 mt-2">Chocolate Focus</span>
+                </div>
+                <div className="flex flex-col items-center">
+                    <span className="text-4xl font-bold text-ranch-gold font-serif">Proven</span>
+                    <span className="text-sm uppercase tracking-wider text-slate-500 mt-2">Bloodlines</span>
                 </div>
               </div>
             </div>
-            
+
             <div className="relative">
               <div className="absolute -inset-4 border-2 border-ranch-gold opacity-20 rounded-lg transform rotate-2"></div>
-              <img 
-                src="https://image.pollinations.ai/prompt/portrait%20of%20a%20rugged%20texas%20rancher%20looking%20out%20at%20sunrise%20photorealistic?width=800&height=1000&nologo=true&seed=502" 
-                alt="Rancher overlooking herd" 
-                className="w-full rounded-lg shadow-xl relative z-10" 
+              <img
+                src="/images/buck-front.png"
+                alt="Chocolate Fallow Buck"
+                className="w-full rounded-lg shadow-xl relative z-10"
               />
             </div>
           </div>
@@ -70,7 +73,7 @@ const About: React.FC = () => {
       <section className="py-24 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
-                <h2 className="text-3xl font-serif font-bold text-ranch-navy">Our Core Values</h2>
+                <h2 className="text-3xl font-serif font-bold text-ranch-navy">What We Stand For</h2>
                 <div className="w-24 h-1 bg-ranch-gold mx-auto mt-4"></div>
             </div>
 
@@ -81,7 +84,7 @@ const About: React.FC = () => {
                     </div>
                     <h3 className="text-xl font-bold text-ranch-navy text-center mb-4">Genetic Excellence</h3>
                     <p className="text-slate-600 text-center leading-relaxed">
-                        We utilize data-driven breeding decisions to continually improve antler mass, body conformation, and disease resistance in our herd.
+                        Our breeding program focuses on well-rounded chocolate fallow genetics, using structured pairings and selective outcrossing to strengthen color, structure, and long-term herd health.
                     </p>
                 </div>
 
@@ -91,7 +94,7 @@ const About: React.FC = () => {
                     </div>
                     <h3 className="text-xl font-bold text-ranch-navy text-center mb-4">Integrity First</h3>
                     <p className="text-slate-600 text-center leading-relaxed">
-                        In an industry built on reputation, we stand by ours. Honest representation of our animals and transparent business practices are non-negotiable.
+                        We stand behind what we sell with honest representation and a commitment to helping buyers find the right fit for their goals. Straightforward communication, no exceptions.
                     </p>
                 </div>
 
@@ -99,9 +102,9 @@ const About: React.FC = () => {
                     <div className="bg-ranch-navy/5 w-16 h-16 rounded-full flex items-center justify-center mb-6 mx-auto">
                         <Leaf className="h-8 w-8 text-ranch-gold" />
                     </div>
-                    <h3 className="text-xl font-bold text-ranch-navy text-center mb-4">Land Stewardship</h3>
+                    <h3 className="text-xl font-bold text-ranch-navy text-center mb-4">Consistent Management</h3>
                     <p className="text-slate-600 text-center leading-relaxed">
-                        We believe that healthy soil creates healthy animals. Our rotational grazing and habitat management practices ensure a sustainable future.
+                        Every animal represents our standard for quality — healthy, and true to type. Raised with care and managed for reliable results across each generation.
                     </p>
                 </div>
             </div>
@@ -110,10 +113,10 @@ const About: React.FC = () => {
 
       {/* Gallery Strip */}
       <section className="grid grid-cols-2 md:grid-cols-4">
-        <img src="https://image.pollinations.ai/prompt/macro%20shot%20of%20deer%20fur%20texture%20chocolate%20brown%20photorealistic?width=600&height=600&nologo=true&seed=503" alt="Deer Texture" className="w-full h-64 object-cover hover:opacity-90 transition-opacity" />
-        <img src="https://image.pollinations.ai/prompt/field%20of%20bluebonnets%20flowers%20in%20texas%20sunny%20day%20photorealistic?width=600&height=600&nologo=true&seed=504" alt="Texas Wildflowers" className="w-full h-64 object-cover hover:opacity-90 transition-opacity" />
-        <img src="https://image.pollinations.ai/prompt/barbed%20wire%20fence%20post%20close%20up%20sunset%20bokeh%20photorealistic?width=600&height=600&nologo=true&seed=505" alt="Fence Line" className="w-full h-64 object-cover hover:opacity-90 transition-opacity" />
-        <img src="https://image.pollinations.ai/prompt/two%20bucks%20locking%20antlers%20in%20field%20photorealistic?width=600&height=600&nologo=true&seed=506" alt="Bucks Sparring" className="w-full h-64 object-cover hover:opacity-90 transition-opacity" />
+        <img src="/images/two-deer.jpg" alt="Deer" className="w-full h-64 object-cover hover:opacity-90 transition-opacity" />
+        <img src="/images/deer-grazing.jpg" alt="Grazing" className="w-full h-64 object-cover hover:opacity-90 transition-opacity" />
+        <img src="/images/bucks-water.jpg" alt="Bucks at Water" className="w-full h-64 object-cover hover:opacity-90 transition-opacity" />
+        <img src="/images/herd-mixed.jpg" alt="Mixed Herd" className="w-full h-64 object-cover hover:opacity-90 transition-opacity" />
       </section>
     </div>
   );
