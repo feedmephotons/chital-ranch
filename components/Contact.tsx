@@ -33,7 +33,7 @@ const Contact: React.FC = () => {
           <div>
             <div className="mb-8">
                <Link to="/" className="inline-block mb-6">
-                <img src="/images/logo.png" alt="Chital Ranch" className="h-16 w-auto" />
+                <img src="/images/logo-square.webp" alt="Chital Ranch" className="h-20 w-auto" />
               </Link>
               <p className="text-slate-400 text-lg max-w-md">
                 Quality chocolate fallow deer from proven Texas bloodlines. Dependable color, solid frames, and genetics built for South Texas conditions.
