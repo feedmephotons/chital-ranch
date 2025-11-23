@@ -43,14 +43,24 @@ const MOCK_ANIMALS: Animal[] = [
     description: 'Exposed does bred to our top herd sires. Get a head start on your breeding program with proven genetics.',
     imageUrl: '/images/herd-grazing.jpg',
     status: 'Inquire'
+  },
+  {
+    id: '5',
+    name: 'Semen Straws',
+    type: 'Semen',
+    age: 'N/A',
+    price: 'Contact for Pricing',
+    description: 'Frozen semen from our top herd sires. Expand your genetics without transporting live animals. Available from proven breeder bucks with documented performance.',
+    imageUrl: '/images/mudslide.jpg',
+    status: 'Available'
   }
 ];
 
 const ForSale: React.FC = () => {
-  const [filter, setFilter] = useState<'All' | 'Buck' | 'Doe' | 'Fawn'>('All');
+  const [filter, setFilter] = useState<'All' | 'Buck' | 'Doe' | 'Fawn' | 'Semen'>('All');
 
-  const filteredAnimals = filter === 'All' 
-    ? MOCK_ANIMALS 
+  const filteredAnimals = filter === 'All'
+    ? MOCK_ANIMALS
     : MOCK_ANIMALS.filter(a => a.type === filter);
 
   return (
@@ -77,17 +87,17 @@ const ForSale: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center gap-4 overflow-x-auto">
           <Filter size={20} className="text-ranch-gold flex-shrink-0" />
           <span className="font-bold text-ranch-navy mr-2">Filter:</span>
-          {['All', 'Buck', 'Doe', 'Fawn'].map((type) => (
+          {['All', 'Buck', 'Doe', 'Fawn', 'Semen'].map((type) => (
             <button
               key={type}
               onClick={() => setFilter(type as any)}
               className={`px-4 py-1.5 rounded-full text-sm font-bold transition-colors whitespace-nowrap ${
-                filter === type 
-                  ? 'bg-ranch-navy text-white' 
+                filter === type
+                  ? 'bg-ranch-navy text-white'
                   : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
               }`}
             >
-              {type}s
+              {type === 'Semen' ? 'Semen' : `${type}s`}
             </button>
           ))}
         </div>
@@ -169,6 +179,10 @@ const ForSale: React.FC = () => {
                 <li className="flex items-start gap-3">
                   <span className="w-2 h-2 bg-ranch-gold rounded-full mt-2 flex-shrink-0"></span>
                   <span>Breeder bucks available by rotation</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="w-2 h-2 bg-ranch-gold rounded-full mt-2 flex-shrink-0"></span>
+                  <span>Frozen semen from top herd sires</span>
                 </li>
               </ul>
             </div>

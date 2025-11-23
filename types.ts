@@ -1,12 +1,12 @@
 export interface Animal {
   id: string;
   name: string;
-  type: 'Buck' | 'Doe' | 'Fawn';
+  type: 'Buck' | 'Doe' | 'Fawn' | 'Semen';
   age: string;
   price?: string;
   description: string;
   imageUrl: string;
-  status: 'Available' | 'Sold' | 'Pending';
+  status: 'Available' | 'Sold' | 'Pending' | 'Inquire';
 }
 
 export interface ContactFormData {
