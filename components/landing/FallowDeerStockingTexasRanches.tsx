@@ -7,7 +7,7 @@ const FallowDeerStockingTexasRanches: React.FC = () => {
       title="Fallow Deer Stocking for Texas Ranches"
       subtitle="Quality deer for your property"
       heroImage="/images/herd-mixed.jpg"
-      intro="Stocking your Texas ranch with fallow deer? Chital Ranch provides quality chocolate fallow deer that perform well in pasture settings. Whether you're establishing a new population or adding to an existing herd, our deer offer the strong color, clean genetics, and good body condition that Texas ranches demand."
+      intro="Stocking your Texas ranch with fallow deer? CR Fallow provides quality chocolate fallow deer that perform well in pasture settings. Whether you're establishing a new population or adding to an existing herd, our deer offer the strong color, clean genetics, and good body condition that Texas ranches demand."
       bulletPoints={[
         "Ranch stocking specialists",
         "Bulk quantities available",

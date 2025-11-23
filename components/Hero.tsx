@@ -23,7 +23,7 @@ const Hero: React.FC = () => {
             South Texas
           </h2>
           <h1 className="text-5xl md:text-8xl font-serif font-bold text-white mb-8 leading-tight drop-shadow-2xl">
-            Chital Ranch
+            CR Fallow
           </h1>
           <p className="text-xl md:text-3xl text-ranch-gold font-serif italic mb-8">
             Chocolate Fallow Deer
@@ -56,8 +56,8 @@ const Hero: React.FC = () => {
             <div className="relative">
               <div className="absolute -top-4 -left-4 w-24 h-24 bg-ranch-gold/10 rounded-full -z-10"></div>
               <img
-                src="/images/buck-featured.jpg"
-                alt="Chocolate Fallow Buck"
+                src="/images/mudslide.jpg"
+                alt="Mudslide - Featured Chocolate Fallow Buck"
                 className="rounded-lg shadow-2xl w-full object-cover h-[600px]"
               />
               <div className="absolute bottom-8 right-[-20px] bg-white p-6 shadow-xl rounded-lg max-w-xs hidden md:block border-l-4 border-ranch-gold">
@@ -65,13 +65,13 @@ const Hero: React.FC = () => {
               </div>
             </div>
             <div>
-              <span className="text-ranch-gold font-bold uppercase tracking-widest text-sm">Welcome to Chital Ranch</span>
+              <span className="text-ranch-gold font-bold uppercase tracking-widest text-sm">Welcome to CR Fallow</span>
               <h2 className="text-4xl md:text-5xl font-serif font-bold text-ranch-navy mt-4 mb-8">
                 Consistent Quality,<br/>
                 <span className="text-ranch-gold italic">Proven Genetics</span>
               </h2>
               <p className="text-slate-600 text-lg leading-relaxed mb-6">
-                At Chital Ranch, we focus on raising chocolate fallow deer with dependable color, solid frames, and the kind of health and temperament that make them easy to work with.
+                At CR Fallow, we focus on raising chocolate fallow deer with dependable color, solid frames, and the kind of health and temperament that make them easy to work with.
               </p>
               <p className="text-slate-600 text-lg leading-relaxed mb-6">
                 Our genetics come from respected Texas bloodlines — including contributions from some of the state's top programs — and we use those strengths to build a herd that is consistent, balanced, and reliable.
@@ -200,7 +200,7 @@ const Hero: React.FC = () => {
         <div className="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/wood-pattern.png')]"></div>
         <div className="max-w-4xl mx-auto px-4 text-center relative z-10">
           <blockquote className="text-2xl md:text-3xl font-serif leading-relaxed mb-8 italic">
-            "Chital Ranch raises dependable, well-bred chocolate fallow deer with strong genetics, good structure, and a straightforward, honest approach to every sale."
+            "CR Fallow raises dependable, well-bred chocolate fallow deer with strong genetics, good structure, and a straightforward, honest approach to every sale."
           </blockquote>
           <cite className="text-ranch-gold font-bold tracking-widest uppercase not-italic">
             — Our Promise

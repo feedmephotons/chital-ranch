@@ -37,7 +37,7 @@ const Navigation: React.FC = () => {
             <Link to="/" className="flex items-center">
               <img
                 src="/images/logo-square.webp"
-                alt="Chital Ranch"
+                alt="CR Fallow"
                 className="h-14 w-auto"
               />
             </Link>

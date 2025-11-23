@@ -6,8 +6,8 @@ const BreederBucksFallowDeerTexas: React.FC = () => {
     <LandingPageTemplate
       title="Breeder Bucks — Fallow Deer Texas"
       subtitle="Proven sires for your breeding program"
-      heroImage="/images/buck-featured.jpg"
-      intro="Looking for a breeder buck to elevate your fallow deer program? Chital Ranch offers proven breeder bucks with documented genetics, wide palmation, and the consistent chocolate coloration that defines quality fallow deer. Our bucks are selected for their ability to pass premium traits to offspring."
+      heroImage="/images/mudslide.jpg"
+      intro="Looking for a breeder buck to elevate your fallow deer program? CR Fallow offers proven breeder bucks with documented genetics, wide palmation, and the consistent chocolate coloration that defines quality fallow deer. Our bucks are selected for their ability to pass premium traits to offspring."
       bulletPoints={[
         "Proven breeding performance",
         "Wide palmation genetics",

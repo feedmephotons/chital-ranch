@@ -9,7 +9,7 @@ interface VideoItem {
 const videos: VideoItem[] = [
   { src: '/videos/video1.mp4', title: 'Ranch Life' },
   { src: '/videos/video2.mp4', title: 'Our Herd' },
-  { src: '/videos/video3.mp4', title: 'Chital Ranch' },
+  { src: '/videos/video3.mp4', title: 'CR Fallow' },
 ];
 
 const VideoCarousel: React.FC = () => {
@@ -70,7 +70,7 @@ const VideoCarousel: React.FC = () => {
           <span className="text-ranch-gold uppercase tracking-widest text-sm font-bold">Ranch Life</span>
           <h2 className="text-4xl font-serif font-bold text-white mt-2 mb-4">See Our Operation</h2>
           <p className="text-slate-400 max-w-2xl mx-auto">
-            Get a glimpse of daily life at Chital Ranch and see our chocolate fallow deer in action.
+            Get a glimpse of daily life at CR Fallow and see our chocolate fallow deer in action.
           </p>
         </div>
 

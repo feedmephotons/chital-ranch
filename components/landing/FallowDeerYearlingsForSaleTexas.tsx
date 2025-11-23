@@ -7,7 +7,7 @@ const FallowDeerYearlingsForSaleTexas: React.FC = () => {
       title="Fallow Deer Yearlings for Sale in Texas"
       subtitle="Young stock with steady development"
       heroImage="/images/two-deer.jpg"
-      intro="Looking to grow out your own fallow deer? Chital Ranch offers yearlings with steady development from proven chocolate fallow genetics. Yearlings are an excellent choice for buyers who want to develop animals in their own program while benefiting from our foundation genetics and early management."
+      intro="Looking to grow out your own fallow deer? CR Fallow offers yearlings with steady development from proven chocolate fallow genetics. Yearlings are an excellent choice for buyers who want to develop animals in their own program while benefiting from our foundation genetics and early management."
       bulletPoints={[
         "Yearlings with steady development",
         "Chocolate fallow genetics",

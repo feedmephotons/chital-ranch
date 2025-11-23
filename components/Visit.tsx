@@ -35,7 +35,7 @@ const Visit: React.FC = () => {
           />
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-5xl font-serif font-bold text-white mb-4">Visit Chital Ranch</h1>
+          <h1 className="text-5xl font-serif font-bold text-white mb-4">Visit CR Fallow</h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">See the quality for yourself. Schedule a visit to our South Texas operation.</p>
         </div>
       </div>
@@ -49,7 +49,7 @@ const Visit: React.FC = () => {
               <span className="text-ranch-gold uppercase tracking-widest text-sm font-bold">Plan Your Visit</span>
               <h2 className="text-4xl font-serif font-bold text-ranch-navy mt-2 mb-6">Private Tours & Appointments</h2>
               <p className="text-slate-600 text-lg mb-8 leading-relaxed">
-                We welcome fellow breeders, ranch owners, and anyone interested in quality chocolate fallow deer to visit Chital Ranch. There's no substitute for seeing the animals in person—their color, conformation, and temperament speak for themselves.
+                We welcome fellow breeders, ranch owners, and anyone interested in quality chocolate fallow deer to visit CR Fallow. There's no substitute for seeing the animals in person—their color, conformation, and temperament speak for themselves.
               </p>
 
               <div className="bg-slate-50 p-8 rounded-xl border border-slate-100 mb-8">

@@ -6,8 +6,8 @@ const ChocolateFallowBucksForSale: React.FC = () => {
     <LandingPageTemplate
       title="Chocolate Fallow Bucks for Sale"
       subtitle="Proven breeder bucks from Texas bloodlines"
-      heroImage="/images/buck-featured.jpg"
-      intro="Looking for quality chocolate fallow bucks? Chital Ranch offers breeder bucks with wide palmation, solid frames, and dependable chocolate color. Our bucks come from proven Texas bloodlines and are selected for the traits that matter most — structure, color consistency, and the ability to pass those qualities to offspring."
+      heroImage="/images/mudslide.jpg"
+      intro="Looking for quality chocolate fallow bucks? CR Fallow offers breeder bucks with wide palmation, solid frames, and dependable chocolate color. Our bucks come from proven Texas bloodlines and are selected for the traits that matter most — structure, color consistency, and the ability to pass those qualities to offspring."
       bulletPoints={[
         "Proven breeder bucks available",
         "Wide palmation and heavy mass",

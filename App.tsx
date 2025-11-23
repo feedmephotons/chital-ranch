@@ -8,6 +8,7 @@ import ForSale from './components/ForSale';
 import Visit from './components/Visit';
 import Contact from './components/Contact';
 import RanchAI from './components/RanchAI';
+import LandingPagesIndex from './components/LandingPagesIndex';
 
 // SEO Landing Pages
 import {
@@ -68,6 +69,7 @@ const App: React.FC = () => {
             <Route path="/chocolate-fallow-deer-floresville-tx" element={<ChocolateFallowDeerFloresvilleTX />} />
             <Route path="/fallow-deer-stocking-texas-ranches" element={<FallowDeerStockingTexasRanches />} />
             <Route path="/quality-fallow-deer-bloodlines-texas" element={<QualityFallowDeerBloodlinesTexas />} />
+            <Route path="/sitemap" element={<LandingPagesIndex />} />
           </Routes>
         </main>
         <Contact />

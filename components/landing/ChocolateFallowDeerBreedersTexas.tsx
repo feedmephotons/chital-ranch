@@ -7,7 +7,7 @@ const ChocolateFallowDeerBreedersTexas: React.FC = () => {
       title="Chocolate Fallow Deer Breeders in Texas"
       subtitle="Built on purpose and integrity"
       heroImage="/images/buck-front.png"
-      intro="Chital Ranch is a South Texas fallow operation focused on consistent chocolate genetics and dependable herd development. As dedicated chocolate fallow deer breeders, we raise our deer with close attention to health, temperament, and long-term quality. Our breeding program focuses on structured pairings and selective outcrossing to strengthen color, structure, and herd health."
+      intro="CR Fallow is a South Texas fallow operation focused on consistent chocolate genetics and dependable herd development. As dedicated chocolate fallow deer breeders, we raise our deer with close attention to health, temperament, and long-term quality. Our breeding program focuses on structured pairings and selective outcrossing to strengthen color, structure, and herd health."
       bulletPoints={[
         "Dedicated chocolate fallow specialists",
         "Structured breeding program",

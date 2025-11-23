@@ -32,7 +32,7 @@ const About: React.FC = () => {
                 Built on <span className="italic text-ranch-gold">Purpose & Integrity</span>
               </h2>
               <p className="text-slate-600 text-lg leading-relaxed mb-6">
-                Chital Ranch is a South Texas fallow operation focused on consistent chocolate genetics and dependable herd development. We raise our deer with close attention to health, temperament, and long-term quality.
+                CR Fallow is a South Texas fallow operation focused on consistent chocolate genetics and dependable herd development. We raise our deer with close attention to health, temperament, and long-term quality.
               </p>
               <p className="text-slate-600 text-lg leading-relaxed mb-6">
                 Our genetics come from respected Texas bloodlines — including contributions from some of the state's top programs — and we use those strengths to build a herd that is consistent, balanced, and reliable.
@@ -60,7 +60,7 @@ const About: React.FC = () => {
             <div className="relative">
               <div className="absolute -inset-4 border-2 border-ranch-gold opacity-20 rounded-lg transform rotate-2"></div>
               <img
-                src="/images/buck-front.png"
+                src="/images/mudslide.jpg"
                 alt="Chocolate Fallow Buck"
                 className="w-full rounded-lg shadow-xl relative z-10"
               />

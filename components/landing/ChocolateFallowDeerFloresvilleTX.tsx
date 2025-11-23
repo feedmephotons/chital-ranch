@@ -7,7 +7,7 @@ const ChocolateFallowDeerFloresvilleTX: React.FC = () => {
       title="Chocolate Fallow Deer — Floresville, TX"
       subtitle="Local South Texas fallow deer operation"
       heroImage="/images/hero-bg.jpg"
-      intro="Chital Ranch is located in Floresville, Texas, in the heart of South Texas ranch country. We're a local fallow deer operation focused on consistent chocolate genetics and dependable herd development. Conveniently located for buyers throughout South Texas, San Antonio, and the surrounding region."
+      intro="CR Fallow is located in Floresville, Texas, in the heart of South Texas ranch country. We're a local fallow deer operation focused on consistent chocolate genetics and dependable herd development. Conveniently located for buyers throughout South Texas, San Antonio, and the surrounding region."
       bulletPoints={[
         "Located in Floresville, TX 78114",
         "Easy access from San Antonio",

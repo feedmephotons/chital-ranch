@@ -7,7 +7,7 @@ const BuyFallowDeerTexas: React.FC = () => {
       title="Buy Fallow Deer in Texas"
       subtitle="Quality chocolate fallow deer available now"
       heroImage="/images/herd-mixed.jpg"
-      intro="Ready to buy fallow deer in Texas? Chital Ranch offers quality chocolate fallow deer for breeders and hunting ranches. We provide straightforward communication, honest representation of every animal, and healthy deer ready for breeding or pasture. Contact us to discuss your needs and see what's available."
+      intro="Ready to buy fallow deer in Texas? CR Fallow offers quality chocolate fallow deer for breeders and hunting ranches. We provide straightforward communication, honest representation of every animal, and healthy deer ready for breeding or pasture. Contact us to discuss your needs and see what's available."
       bulletPoints={[
         "Chocolate fallow deer available",
         "Breeder bucks and does",

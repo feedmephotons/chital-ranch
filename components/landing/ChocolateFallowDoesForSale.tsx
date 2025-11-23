@@ -7,7 +7,7 @@ const ChocolateFallowDoesForSale: React.FC = () => {
       title="Chocolate Fallow Does for Sale"
       subtitle="Foundation does with proven maternal genetics"
       heroImage="/images/does-pasture.jpg"
-      intro="Building your herd starts with quality does. Chital Ranch offers chocolate fallow does with strong maternal genetics, consistent coloration, and the steady temperaments that make for successful breeding programs. Our does are raised with care and selected for the traits that produce quality offspring year after year."
+      intro="Building your herd starts with quality does. CR Fallow offers chocolate fallow does with strong maternal genetics, consistent coloration, and the steady temperaments that make for successful breeding programs. Our does are raised with care and selected for the traits that produce quality offspring year after year."
       bulletPoints={[
         "Foundation-quality chocolate does",
         "Proven maternal genetics",

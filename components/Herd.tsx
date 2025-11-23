@@ -25,7 +25,7 @@ const Herd: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-24">
              <div className="order-2 md:order-1">
                <img
-                 src="/images/buck-featured.jpg"
+                 src="/images/mudslide.jpg"
                  alt="Trophy Chocolate Fallow Buck"
                  className="rounded-xl shadow-2xl"
                />
@@ -33,7 +33,7 @@ const Herd: React.FC = () => {
              <div className="order-1 md:order-2">
                <h2 className="text-3xl font-serif font-bold text-ranch-navy mb-6">What Sets Our Genetics Apart</h2>
                <p className="text-slate-600 text-lg leading-relaxed mb-6">
-                 From our foundation stock to our current breeding lineup, every animal at Chital Ranch has been selected with one goal in mind: producing offspring that perform. We focus on dependable chocolate color, solid frames, and animals that are built to thrive in South Texas conditions.
+                 From our foundation stock to our current breeding lineup, every animal at CR Fallow has been selected with one goal in mind: producing offspring that perform. We focus on dependable chocolate color, solid frames, and animals that are built to thrive in South Texas conditions.
                </p>
                <p className="text-slate-600 text-lg leading-relaxed mb-6">
                  Our program emphasizes bucks with wide, heavy palmation and does with proven maternal instincts. We believe that a great trophy starts with a great mother, and we're committed to producing animals that deliver consistent results year after year.
@@ -95,7 +95,7 @@ const Herd: React.FC = () => {
             <div className="bg-slate-800 rounded-xl overflow-hidden shadow-2xl">
               <div className="h-80 overflow-hidden">
                 <img
-                  src="/images/buck-featured.jpg"
+                  src="/images/mudslide.jpg"
                   alt="Featured Buck"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />

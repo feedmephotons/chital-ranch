@@ -136,7 +136,7 @@ const LandingPageTemplate: React.FC<LandingPageProps> = ({
           <div className="bg-slate-50 rounded-xl p-8 border border-slate-100">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div>
-                <h3 className="text-xl font-serif font-bold text-ranch-navy mb-4">Visit Chital Ranch</h3>
+                <h3 className="text-xl font-serif font-bold text-ranch-navy mb-4">Visit CR Fallow</h3>
                 <div className="flex items-start gap-3 mb-4">
                   <MapPin className="text-ranch-gold flex-shrink-0 mt-1" size={20} />
                   <div>

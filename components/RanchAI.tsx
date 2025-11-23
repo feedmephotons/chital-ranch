@@ -6,7 +6,7 @@ import { ChatMessage } from '../types';
 const RanchAI: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState<ChatMessage[]>([
-    { role: 'model', text: "Howdy! I'm Ranger, the virtual ranch hand for Chital Ranch. Ask me anything about our Chocolate Fallow Deer, breeding program, or current availability." }
+    { role: 'model', text: "Howdy! I'm Ranger, the virtual ranch hand for CR Fallow. Ask me anything about our Chocolate Fallow Deer, breeding program, or current availability." }
   ]);
   const [inputText, setInputText] = useState('');
   const [isLoading, setIsLoading] = useState(false);
