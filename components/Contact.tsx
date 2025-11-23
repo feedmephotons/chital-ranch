@@ -33,7 +33,7 @@ const Contact: React.FC = () => {
           <div>
             <div className="mb-8">
                <Link to="/" className="inline-block mb-6">
-                <img src="/images/logo-square.webp" alt="CR Fallow" className="h-20 w-auto" />
+                <img src="/images/cr-fallow-logo.svg" alt="CR Fallow" className="h-24 w-auto" />
               </Link>
               <p className="text-slate-400 text-lg max-w-md">
                 Quality chocolate fallow deer from proven Texas bloodlines. Dependable color, solid frames, and genetics built for South Texas conditions.
@@ -59,7 +59,7 @@ const Contact: React.FC = () => {
                 <Mail className="text-ranch-gold mt-1" size={24} />
                 <div>
                   <h4 className="font-bold uppercase text-sm tracking-wider mb-1">Email</h4>
-                  <a href="mailto:info@chitalranch.com" className="text-slate-300 hover:text-white transition-colors">info@chitalranch.com</a>
+                  <a href="mailto:info@crfallow.com" className="text-slate-300 hover:text-white transition-colors">info@crfallow.com</a>
                 </div>
               </div>
             </div>

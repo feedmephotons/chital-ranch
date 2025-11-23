@@ -36,9 +36,9 @@ const Navigation: React.FC = () => {
           <div className="flex-shrink-0 flex items-center">
             <Link to="/" className="flex items-center">
               <img
-                src="/images/logo-square.webp"
+                src="/images/cr-fallow-logo.svg"
                 alt="CR Fallow"
-                className="h-14 w-auto"
+                className="h-16 w-auto"
               />
             </Link>
           </div>
