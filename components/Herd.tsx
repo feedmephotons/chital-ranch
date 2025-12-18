@@ -105,8 +105,8 @@ const Herd: React.FC = () => {
               </div>
               <div className="p-8">
                 <div className="flex justify-between items-center mb-4">
-                  <h3 className="text-2xl font-serif font-bold text-ranch-gold">Breeder Buck</h3>
-                  <span className="bg-slate-700 px-3 py-1 rounded text-xs font-bold uppercase tracking-wider">Active Breeder</span>
+                  <h3 className="text-2xl font-serif font-bold text-ranch-gold">Herd Sire</h3>
+                  <span className="bg-slate-700 px-3 py-1 rounded text-xs font-bold uppercase tracking-wider">Foundation Sire</span>
                 </div>
                 <ul className="space-y-2 text-slate-300 mb-6">
                   <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 bg-ranch-gold rounded-full"></span> Heavy Mass Genetics</li>
@@ -127,8 +127,8 @@ const Herd: React.FC = () => {
               </div>
               <div className="p-8">
                 <div className="flex justify-between items-center mb-4">
-                  <h3 className="text-2xl font-serif font-bold text-ranch-gold">Herd Sire</h3>
-                  <span className="bg-slate-700 px-3 py-1 rounded text-xs font-bold uppercase tracking-wider">Foundation Sire</span>
+                  <h3 className="text-2xl font-serif font-bold text-ranch-gold">Breeder Buck</h3>
+                  <span className="bg-slate-700 px-3 py-1 rounded text-xs font-bold uppercase tracking-wider">Active Breeder</span>
                 </div>
                 <ul className="space-y-2 text-slate-300 mb-6">
                   <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 bg-ranch-gold rounded-full"></span> Deep Chocolate</li>
