@@ -24,10 +24,13 @@ const Herd: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-24">
              <div className="order-2 md:order-1">
-               <img
-                 src="/images/mudslide.jpg"
-                 alt="Trophy Chocolate Fallow Buck"
-                 className="rounded-xl shadow-2xl"
+               <video
+                 src="/videos/mudslide herd page.mp4"
+                 autoPlay
+                 loop
+                 muted
+                 playsInline
+                 className="rounded-xl shadow-2xl w-full"
                />
              </div>
              <div className="order-1 md:order-2">

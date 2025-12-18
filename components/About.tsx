@@ -60,7 +60,7 @@ const About: React.FC = () => {
             <div className="relative">
               <div className="absolute -inset-4 border-2 border-ranch-gold opacity-20 rounded-lg transform rotate-2"></div>
               <img
-                src="/images/mudslide.jpg"
+                src="/images/mudslide2.jpeg"
                 alt="Chocolate Fallow Buck"
                 className="w-full rounded-lg shadow-xl relative z-10"
               />
