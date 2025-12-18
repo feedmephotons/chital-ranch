@@ -11,7 +11,7 @@ const MOCK_ANIMALS: Animal[] = [
     age: 'Various',
     price: 'Contact for Pricing',
     description: 'Quality chocolate fallow bucks with proven genetics. Wide palmation, solid frames, and dependable color. Built for South Texas conditions.',
-    imageUrl: '/images/buck-featured.jpg',
+    imageUrl: '/images/medslideclose.jpg',
     status: 'Available'
   },
   {
@@ -20,7 +20,7 @@ const MOCK_ANIMALS: Animal[] = [
     type: 'Doe',
     age: 'Various',
     price: 'Contact for Pricing',
-    description: 'Foundation-quality chocolate does from our breeding program. Proven maternal genetics and consistent chocolate coloring.',
+    description: 'Chocolate does with quality bloodlines from our breeding program. Proven maternal genetics and consistent chocolate coloring.',
     imageUrl: '/images/does-pasture.jpg',
     status: 'Available'
   },
