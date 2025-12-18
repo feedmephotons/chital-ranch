@@ -106,12 +106,12 @@ const Herd: React.FC = () => {
               <div className="p-8">
                 <div className="flex justify-between items-center mb-4">
                   <h3 className="text-2xl font-serif font-bold text-ranch-gold">Breeder Buck</h3>
-                  <span className="bg-slate-700 px-3 py-1 rounded text-xs font-bold uppercase tracking-wider">Foundation Sire</span>
+                  <span className="bg-slate-700 px-3 py-1 rounded text-xs font-bold uppercase tracking-wider">Active Breeder</span>
                 </div>
                 <ul className="space-y-2 text-slate-300 mb-6">
+                  <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 bg-ranch-gold rounded-full"></span> Heavy Mass Genetics</li>
+                  <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 bg-ranch-gold rounded-full"></span> Proven Performance</li>
                   <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 bg-ranch-gold rounded-full"></span> Wide Palmation</li>
-                  <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 bg-ranch-gold rounded-full"></span> Deep Chocolate Color</li>
-                  <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 bg-ranch-gold rounded-full"></span> Exceptional Frame</li>
                 </ul>
                 <p className="text-slate-400 italic">Known for passing on exceptional palm width and consistent chocolate coloring.</p>
               </div>
@@ -128,11 +128,11 @@ const Herd: React.FC = () => {
               <div className="p-8">
                 <div className="flex justify-between items-center mb-4">
                   <h3 className="text-2xl font-serif font-bold text-ranch-gold">Herd Sire</h3>
-                  <span className="bg-slate-700 px-3 py-1 rounded text-xs font-bold uppercase tracking-wider">Active Breeder</span>
+                  <span className="bg-slate-700 px-3 py-1 rounded text-xs font-bold uppercase tracking-wider">Foundation Sire</span>
                 </div>
                 <ul className="space-y-2 text-slate-300 mb-6">
-                  <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 bg-ranch-gold rounded-full"></span> Heavy Mass Genetics</li>
-                  <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 bg-ranch-gold rounded-full"></span> Proven Performance</li>
+                  <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 bg-ranch-gold rounded-full"></span> Deep Chocolate</li>
+                  <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 bg-ranch-gold rounded-full"></span> Exceptional Frame</li>
                   <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 bg-ranch-gold rounded-full"></span> South Texas Hardy</li>
                 </ul>
                 <p className="text-slate-400 italic">Produces offspring with solid frames and dependable chocolate color.</p>
