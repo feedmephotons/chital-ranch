@@ -82,7 +82,7 @@ const About: React.FC = () => {
                     <div className="bg-ranch-navy/5 w-16 h-16 rounded-full flex items-center justify-center mb-6 mx-auto">
                         <Target className="h-8 w-8 text-ranch-gold" />
                     </div>
-                    <h3 className="text-xl font-bold text-ranch-navy text-center mb-4">Genetic Excellence</h3>
+                    <h3 className="text-xl font-bold text-ranch-navy text-center mb-4">Selective Breeding</h3>
                     <p className="text-slate-600 text-center leading-relaxed">
                         Our breeding program focuses on well-rounded chocolate fallow genetics, using structured pairings and selective outcrossing to strengthen color, structure, and long-term herd health.
                     </p>
