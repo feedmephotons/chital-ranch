@@ -38,7 +38,7 @@ const About: React.FC = () => {
                 Our genetics come from respected Texas bloodlines — including contributions from some of the state's top programs — and we use those strengths to build a herd that is consistent, balanced, and reliable.
               </p>
               <p className="text-slate-600 text-lg leading-relaxed mb-8">
-                We work with buyers and other ranches to match them with the right deer for their goals. Integrity and reliability drive every decision, from breeding to sale.
+                We work with breeders and other ranches to match them with the right deer for their goals. Integrity and reliability drive every decision, from breeding to sale.
               </p>
 
               <div className="flex gap-8 mt-8">
