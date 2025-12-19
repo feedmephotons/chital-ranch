@@ -28,24 +28,10 @@ const Hero: React.FC = () => {
           <p className="text-xl md:text-3xl text-ranch-gold font-serif italic mb-8">
             Chocolate Fallow Deer
           </p>
-          <p className="text-lg md:text-xl text-gray-100 max-w-3xl mx-auto mb-12 font-light leading-relaxed drop-shadow-md">
+          <p className="text-lg md:text-xl text-gray-100 max-w-3xl mx-auto font-light leading-relaxed drop-shadow-md">
             Dependable color, solid frames, and the kind of health and temperament that make them easy to work with.
             Built on proven Texas bloodlines.
           </p>
-          <div className="flex flex-col sm:flex-row gap-6 justify-center">
-            <Link
-              to="/sale"
-              className="px-10 py-4 bg-ranch-gold text-white font-bold uppercase tracking-wider hover:bg-amber-700 transition-all duration-300 rounded shadow-lg transform hover:-translate-y-1"
-            >
-              View Available Stock
-            </Link>
-            <Link
-              to="/visit"
-              className="px-10 py-4 bg-transparent border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-ranch-navy transition-all duration-300 rounded transform hover:-translate-y-1"
-            >
-              Schedule a Visit
-            </Link>
-          </div>
         </div>
       </section>
 
@@ -205,6 +191,28 @@ const Hero: React.FC = () => {
           <cite className="text-ranch-gold font-bold tracking-widest uppercase not-italic">
             — Our Promise
           </cite>
+        </div>
+      </section>
+
+      {/* Bottom CTA */}
+      <section className="py-16 bg-slate-100">
+        <div className="max-w-4xl mx-auto px-4 text-center">
+          <h2 className="text-3xl font-serif font-bold text-ranch-navy mb-4">Ready to Get Started?</h2>
+          <p className="text-slate-600 mb-8">See what's available or schedule a visit to the ranch.</p>
+          <div className="flex flex-col sm:flex-row gap-6 justify-center">
+            <Link
+              to="/sale"
+              className="px-10 py-4 bg-ranch-gold text-white font-bold uppercase tracking-wider hover:bg-amber-700 transition-all duration-300 rounded shadow-lg transform hover:-translate-y-1"
+            >
+              View Available Stock
+            </Link>
+            <Link
+              to="/visit"
+              className="px-10 py-4 bg-ranch-navy text-white font-bold uppercase tracking-wider hover:bg-slate-800 transition-all duration-300 rounded shadow-lg transform hover:-translate-y-1"
+            >
+              Schedule a Visit
+            </Link>
+          </div>
         </div>
       </section>
     </div>
