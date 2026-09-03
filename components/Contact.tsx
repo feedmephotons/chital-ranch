@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { ContactFormData } from '../types';
+import { submitContactForm, HONEYPOT_FIELD_NAME } from '../services/submissionsService';
 import { MapPin, Phone, Mail, Instagram, Facebook } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
@@ -11,17 +12,33 @@ const Contact: React.FC = () => {
     message: '',
     interest: 'General Inquiry'
   });
-  const [status, setStatus] = useState<'idle' | 'submitting' | 'success'>('idle');
+  const [status, setStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle');
+  const [errorMessage, setErrorMessage] = useState('');
+  const [honeypot, setHoneypot] = useState('');
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setStatus('submitting');
-    // Simulate API call
-    setTimeout(() => {
+
+    // The hidden field is invisible to people, so anything in it means a bot.
+    // Show the usual success state to give it no signal, but write nothing.
+    if (honeypot !== '') {
       setStatus('success');
-      setFormData({ name: '', email: '', phone: '', message: '', interest: 'General Inquiry' });
       setTimeout(() => setStatus('idle'), 5000);
-    }, 1500);
+      return;
+    }
+
+    setStatus('submitting');
+    const result = await submitContactForm(formData);
+
+    if (!result.ok) {
+      setErrorMessage(result.error ?? '');
+      setStatus('error');
+      return;
+    }
+
+    setStatus('success');
+    setFormData({ name: '', email: '', phone: '', message: '', interest: 'General Inquiry' });
+    setTimeout(() => setStatus('idle'), 5000);
   };
 
   return (
@@ -123,6 +140,21 @@ const Contact: React.FC = () => {
                 value={formData.message}
                 onChange={e => setFormData({...formData, message: e.target.value})}
               ></textarea>
+              <div className="hidden" aria-hidden="true">
+                <label htmlFor={`${HONEYPOT_FIELD_NAME}-contact`}>Company</label>
+                <input
+                  type="text"
+                  id={`${HONEYPOT_FIELD_NAME}-contact`}
+                  name={HONEYPOT_FIELD_NAME}
+                  tabIndex={-1}
+                  autoComplete="off"
+                  value={honeypot}
+                  onChange={e => setHoneypot(e.target.value)}
+                />
+              </div>
+              {status === 'error' && (
+                <p role="alert" className="text-red-400 text-sm">{errorMessage}</p>
+              )}
               <button 
                 type="submit"
                 disabled={status === 'submitting' || status === 'success'}
