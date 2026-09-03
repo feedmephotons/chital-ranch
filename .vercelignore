@@ -1,0 +1,3 @@
+# Raw source media kept in the repo for editing. Nothing in the build
+# references it; the served assets live in public/.
+Images to use/
