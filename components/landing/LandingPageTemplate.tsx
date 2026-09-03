@@ -140,7 +140,7 @@ const LandingPageTemplate: React.FC<LandingPageProps> = ({
                 <div className="flex items-start gap-3 mb-4">
                   <MapPin className="text-ranch-gold flex-shrink-0 mt-1" size={20} />
                   <div>
-                    <p className="text-slate-700 font-medium">1424 County Rd 329</p>
+                    <p className="text-slate-700 font-medium">1424 County Road 329</p>
                     <p className="text-slate-600">Floresville, TX 78114</p>
                   </div>
                 </div>
