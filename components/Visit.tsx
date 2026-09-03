@@ -112,7 +112,7 @@ const Visit: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="font-bold text-ranch-navy text-lg">Location</h4>
-                    <p className="text-slate-600">1424 County Rd 329, Floresville, TX 78114</p>
+                    <p className="text-slate-600">1424 County Road 329, Floresville, TX 78114</p>
                   </div>
                 </div>
               </div>

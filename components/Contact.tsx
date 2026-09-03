@@ -62,7 +62,7 @@ const Contact: React.FC = () => {
                 <MapPin className="text-ranch-gold mt-1" size={24} />
                 <div>
                   <h4 className="font-bold uppercase text-sm tracking-wider mb-1">Location</h4>
-                  <p className="text-slate-300">1424 County Rd 329<br />Floresville, TX 78114</p>
+                  <p className="text-slate-300">1424 County Road 329<br />Floresville, TX 78114</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
