@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ChevronRight, Shield, Heart, Dna, ArrowRight } from 'lucide-react';
 import VideoCarousel from './VideoCarousel';
+import FeaturedBuckVideo from './FeaturedBuckVideo';
 
 const Hero: React.FC = () => {
   return (
@@ -72,6 +73,9 @@ const Hero: React.FC = () => {
           </div>
         </div>
       </section>
+
+      {/* Featured Buck Video */}
+      <FeaturedBuckVideo />
 
       {/* Highlights Teaser */}
       <section className="py-24 bg-slate-50">
