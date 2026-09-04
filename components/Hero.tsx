@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ChevronRight, Shield, Heart, Dna, ArrowRight } from 'lucide-react';
 import VideoCarousel from './VideoCarousel';
-import FeaturedBuckVideo from './FeaturedBuckVideo';
+// import FeaturedBuckVideo from './FeaturedBuckVideo';  // see below
 
 const Hero: React.FC = () => {
   return (
@@ -74,8 +74,11 @@ const Hero: React.FC = () => {
         </div>
       </section>
 
-      {/* Featured Buck Video */}
+      {/* Featured Buck Video — off until Droptine delivers the final cut.
+          To restore: uncomment the import above, this element, and set
+          VIDEO_ID in FeaturedBuckVideo.tsx to the new upload.
       <FeaturedBuckVideo />
+      */}
 
       {/* Highlights Teaser */}
       <section className="py-24 bg-slate-50">
