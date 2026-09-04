@@ -43,8 +43,8 @@ const Hero: React.FC = () => {
             <div className="relative">
               <div className="absolute -top-4 -left-4 w-24 h-24 bg-ranch-gold/10 rounded-full -z-10"></div>
               <img
-                src="/images/mudslide.jpg"
-                alt="Mudslide - Featured Chocolate Fallow Buck"
+                src="/images/hd.jpg"
+                alt="HD (Hippity Dippity), chocolate fallow herd sire at CR Fallow"
                 className="rounded-lg shadow-2xl w-full object-cover h-[600px]"
               />
               <div className="absolute bottom-8 right-[-20px] bg-white p-6 shadow-xl rounded-lg max-w-xs hidden md:block border-l-4 border-ranch-gold">

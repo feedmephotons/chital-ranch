@@ -21,9 +21,10 @@ const FeaturedBuckVideo: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <span className="text-ranch-gold uppercase tracking-widest text-sm font-bold">New Herd Sire</span>
-          <h2 className="text-4xl font-serif font-bold text-white mt-2 mb-4">Meet Our Newest Breeder Buck</h2>
+          <h2 className="text-4xl font-serif font-bold text-white mt-2 mb-4">Meet HD</h2>
           <p className="text-slate-400 max-w-2xl mx-auto">
-            Color, frame, and disposition are easier to judge in motion than in a photograph. Take a look.
+            HD &mdash; short for Hippity Dippity &mdash; is our newest breeder buck. Color, frame,
+            and disposition are easier to judge in motion than in a photograph. Take a look.
           </p>
         </div>
 
@@ -33,7 +34,7 @@ const FeaturedBuckVideo: React.FC = () => {
               <iframe
                 className="absolute inset-0 w-full h-full"
                 src={`https://www.youtube-nocookie.com/embed/${VIDEO_ID}?autoplay=1&rel=0&modestbranding=1&playsinline=1`}
-                title="CR Fallow — our newest breeder buck"
+                title="HD (Hippity Dippity) — CR Fallow breeder buck"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerPolicy="strict-origin-when-cross-origin"
                 allowFullScreen
@@ -42,13 +43,13 @@ const FeaturedBuckVideo: React.FC = () => {
               <button
                 type="button"
                 onClick={() => setIsPlaying(true)}
-                aria-label="Play the video of our newest breeder buck"
+                aria-label="Play the video of HD, our newest breeder buck"
                 className="group absolute inset-0 w-full h-full"
               >
                 <img
                   src={thumb}
                   onError={() => setThumb(FALLBACK_THUMB)}
-                  alt="Our newest breeder buck at CR Fallow"
+                  alt="HD (Hippity Dippity), our newest breeder buck at CR Fallow"
                   className="absolute inset-0 w-full h-full object-cover"
                   loading="lazy"
                 />
