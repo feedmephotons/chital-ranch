@@ -2,7 +2,9 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Play, ArrowRight } from 'lucide-react';
 
-const VIDEO_ID = 'V0AYgS6yra8';
+// Droptine Studios' finished piece, "Hippity Dippity JKO Website Video",
+// used with their permission. The earlier V0AYgS6yra8 was a draft.
+const VIDEO_ID = '-O1yNMTNJSU';
 
 // The thumbnail loads from YouTube; maxres is not generated for every upload,
 // so fall back to hqdefault, which always exists.
